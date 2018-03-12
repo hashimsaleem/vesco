@@ -82,14 +82,27 @@ Services
     color: #fff;
 }
 
-.btn-white:hover,  .btn-white:focus {
+.btn-white:hover,
+.btn-white:focus {
     background-color: #fff;
     color: #41464b;
+}
+
+.btn-blue {
+    border-color: #34c6d3;
+    color: #34c6d3;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+    background-color: #34c6d3;
+    color: #fff;
 }
 
 /*----------------------------------------------------------------------------
 Content (Generic)
 -----------------------------------------------------------------------------*/
+
 .content-box {
     padding: 60px 0px 60px 0;
 }
@@ -111,6 +124,7 @@ Content (Generic)
 /*----------------------------------------------------------------------------
 Annimations
 -----------------------------------------------------------------------------*/
+
 #home-cover {
     animation-delay: .1s;
     animation-duration: .5s;
@@ -160,4 +174,45 @@ Services
 .service-item-description p {
     margin: 0;
     padding-left: 85px;
+}
+
+/*----------------------------------------------------------------------------
+Services
+-----------------------------------------------------------------------------*/
+
+#about-content-box {
+    float: left;
+    height: 700px;
+}
+
+#about-content-box-outer {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom: 30px;
+}
+
+#about-bg-diagonal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url('../img/bg-about.jpg');
+    border-left: 200px solid #fff;
+    border-top: 700px solid transparent;
 }
