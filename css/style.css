@@ -295,3 +295,72 @@ Social
 .icon-gray i:hover {
     color: #34c6d3;
 }
+
+/*----------------------------------------------------------------------------
+Testimonial
+-----------------------------------------------------------------------------*/
+
+#testimonials-cover {
+    background-image: url('../img/bg-testimonial-4.jpg');
+}
+
+#testimonials .content-box {
+    background-color: rgb(0, 0, 0, 0.1);
+}
+
+.content-title-white h3 {
+    color: #fff;
+}
+
+#customers-testimonials {
+    padding: 50px 0;
+}
+
+.testimonial img {
+    max-width: 120px;
+    margin: 0 auto 0 auto;
+}
+
+.testimonial blockquote {
+    border: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #fff;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.testimonial blockquote p {
+    color: #fff;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    right: 100px;
+    bottom: 0;
+}
+
+.testimonial-author p {
+    color: #fff;
+    font-size: 17px;
+}
+
+.testimonial-author strong {
+    display: block;
+}
