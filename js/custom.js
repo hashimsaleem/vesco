@@ -2,7 +2,7 @@
 //  Services
 //----------------------------------------------------
 
-$(function() {
+$(function () {
     new WOW().init();
 });
 
@@ -10,7 +10,7 @@ $(function() {
 //  Work
 //----------------------------------------------------
 
-$(function() {
+$(function () {
     $('#work').magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -24,11 +24,12 @@ $(function() {
 //  Work
 //----------------------------------------------------
 
-$(function() {
+$(function () {
     $('.owl-carousel').owlCarousel({
         items: 3,
         autoplay: true,
         smartSpeed: 700,
-        loop: true
+        loop: true,
+        autoplayHoverPause: true
     });
 });
