@@ -309,7 +309,7 @@ Testimonial
 }
 
 #testimonials .content-box {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .content-title-white h3 {
@@ -436,7 +436,7 @@ Pricing
 }
 
 #stats .content-box {
-    background-color: rgb(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .stats-item {
@@ -477,7 +477,7 @@ Contact
 footer {
     background-color: #41464b;
     padding-top: 30px;
-    border-top: 5px solid rgb(0, 0, 0, 0.1);
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
 
 #contact-left h3,
@@ -524,7 +524,7 @@ Copyrights & Menu
 -----------------------------------------------------------------------------*/
 
 #footer-bottom {
-    background-color: rgb(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 30px 0;
     margin-top: 60px;
 }
