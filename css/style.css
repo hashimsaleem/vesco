@@ -111,6 +111,16 @@ Services
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
 /*----------------------------------------------------------------------------
 Content (Generic)
 -----------------------------------------------------------------------------*/
@@ -578,6 +588,7 @@ Copyrights & Menu
 /*----------------------------------------------------------------------------
 Header
 -----------------------------------------------------------------------------*/
+
 #header-logo {
     color: #fff;
     font-size: 25px;
@@ -588,8 +599,10 @@ Header
 /*----------------------------------------------------------------------------
 Navigation
 -----------------------------------------------------------------------------*/
+
 .navbar {
     padding: 20px 0;
+    transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
@@ -605,7 +618,7 @@ Navigation
     float: right;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
@@ -613,8 +626,8 @@ Navigation
     font-weight: 700;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
@@ -638,6 +651,6 @@ Navigation
     max-height: none !important;
 }
 
-.vesco-top-nav ul.navbar-nav > li.active > a {
+.vesco-top-nav ul.navbar-nav>li.active>a {
     color: #34c6d3;
 }
